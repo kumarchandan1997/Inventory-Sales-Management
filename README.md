@@ -31,7 +31,7 @@ A basic ERP system built with **Laravel** focused on **Inventory Management**, *
 
 ## 🛠️ Tech Stack
 
-- Laravel (Latest)
+- Laravel (10)
 - Laravel Breeze
 - Laravel Sanctum
 - MySQL
@@ -51,8 +51,8 @@ A basic ERP system built with **Laravel** focused on **Inventory Management**, *
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/erp-inventory-sales.git
-cd erp-inventory-sales
+git clone https://github.com/kumarchandan1997/Inventory-Sales-Management
+cd Inventory-Sales-Management
 
 composer install
 
@@ -61,6 +61,5 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 
-npm install && npm run dev
 
 php artisan serve
